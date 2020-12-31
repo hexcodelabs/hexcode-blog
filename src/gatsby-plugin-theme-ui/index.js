@@ -68,6 +68,7 @@ const theme = merge(tailwind, {
     h1: {
       variant: `text.heading`,
       fontSize: [5, 6, 6, 7],
+      fontFamily:"Playfair Display",
       mt: 4,
     },
     h2: {
