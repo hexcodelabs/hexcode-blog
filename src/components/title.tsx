@@ -27,7 +27,7 @@ const Title = ({ text, children, as = `h2`, className = `` }: TitleProps) => (
   >
     <Box
       as={as}
-      sx={{ fontWeight: `medium`, fontSize: [3, 4], fontFamily: `heading`, lineHeight: `heading`, color: `heading` }}
+      sx={{ fontWeight: `bold`, fontSize: ["26px"], fontFamily: `Playfair Display`, lineHeight: `heading`, color: `heading` }}
       className={className}
     >
       {text}

@@ -34,7 +34,7 @@ const Footer = () => {
         {` `}
         by
         {` `} */}
-        <Link aria-label="Link to the landing page" href="https://www.hexcodelabs.lk" sx={{fontFamily:"Playfair Display"}}>
+        <Link aria-label="Link to the landing page" href="https://www.hexcodelabs.lk" sx={{fontWeight:"bold", fontFamily:"Rubik"}}>
           HEXCODELABS
         </Link>
       </div>

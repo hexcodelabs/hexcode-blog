@@ -14,30 +14,30 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          {
-            title: `Home`,
-            slug: `https://hexcodelabs.lk/#home`,
-          },
-          {
-            title: `Services`,
-            slug: `https://hexcodelabs.lk/#services`,
-          },
+          // {
+          //   title: `Home`,
+          //   slug: `https://hexcodelabs.lk/#home`,
+          // },
+          // {
+          //   title: `Services`,
+          //   slug: `https://hexcodelabs.lk/#services`,
+          // },
           // {
           //   title: `Blog`,
           //   slug: `https://blog.hexcodelabs.lk/blog`,
           // },
-          {
-            title: `Our Team`,
-            slug: `https://hexcodelabs.lk/crew`,
-          },
-          {
-            title: `Contact Us`,
-            slug: `https://hexcodelabs.lk/#contact`,
-          },
-          {
-            title: `About`,
-            slug: `https://blog.hexcodelabs.lk/about`,
-          },
+          // {
+          //   title: `Our Team`,
+          //   slug: `https://hexcodelabs.lk/crew`,
+          // },
+          // {
+          //   title: `Contact Us`,
+          //   slug: `https://hexcodelabs.lk/#contact`,
+          // },
+          // {
+          //   title: `About`,
+          //   slug: `https://blog.hexcodelabs.lk/about`,
+          // },
         ],
         externalLinks: [
           {

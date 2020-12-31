@@ -41,11 +41,11 @@ const Homepage = ({ posts }: PostsProps) => {
       <Layout>
         <div className="home-inner__start">
           <h1 sx={visuallyHidden}>{siteTitle}</h1>
-          <section sx={{ mb: [7], p: { fontSize: [1, 2, 3], mt: 2 }, variant: `section_hero` }}>
+          <section sx={{ mb: [7], p: { fontSize: [2], mt: 2 }, variant: `section_hero` }}>
             <Hero />
-            <nav sx={{ "a:not(:last-of-type)": { mr: 3 },fontWeight:"bold" ,fontSize: [4],fontFamily:"Playfair Display"}}>
+            <nav sx={{ "a:not(:last-of-type)": { mr: 3 },fontWeight:"bold" ,fontSize: [3],fontFamily:"Playfair Display"}}>
                 <TLink key="blog-button"as={Link} activeClassName="active" to={replaceSlashes(`/${basePath}/${blogPath}`)}>
-                  Click here to read
+                  Click here to start reading...
                 </TLink>
             </nav>
           </section>
@@ -54,7 +54,7 @@ const Homepage = ({ posts }: PostsProps) => {
         {/* <Link to={"/"} sx={{fontFamily:"Playfair Display"}}}>Blogs</Link> */}
         
         <Title text="Latest Posts" >
-          <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Read all posts</Link>
+          <Link to={replaceSlashes(`/${basePath}/${blogPath}`)} >Read all posts</Link>
         </Title>
         <Listing posts={posts} showTags={false} />
         {/* <List sx={{ variant: `section_bottom` }}>
