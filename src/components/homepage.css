@@ -1,0 +1,19 @@
+
+
+.home-inner__start {
+  height: 100%;
+  padding: 10px 0;
+  display: grid;
+
+  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.home-inner__end {
+  height: 100%;
+  padding: 150px 0;
+  display: grid;
+  align-items: center;
+  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+}
