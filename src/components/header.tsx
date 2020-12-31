@@ -5,7 +5,7 @@ import useMinimalBlogConfig from "../hooks/use-minimal-blog-config"
 import ColorModeToggle from "./colormode-toggle"
 import Navigation from "./navigation"
 import HeaderTitle from "./header-title"
-import HeaderExternalLinks from "./header-external-links"
+
 
 const Header = () => {
   const { navigation: nav } = useMinimalBlogConfig()
@@ -36,7 +36,6 @@ const Header = () => {
           {/* <ColorModeToggle isDark={isDark} toggle={toggleColorMode} /> */}
         </Flex>
         <Navigation nav={nav} />
-        {/* <HeaderExternalLinks /> */}
         <ColorModeToggle isDark={isDark} toggle={toggleColorMode} />
       </div>
     </header>

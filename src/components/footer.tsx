@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx, Link } from "theme-ui"
 import useSiteMetadata from "../hooks/use-site-metadata"
+import HeaderExternalLinks from "./header-external-links"
 
 const Footer = () => {
   const { siteTitle } = useSiteMetadata()
@@ -21,7 +22,7 @@ const Footer = () => {
       }}
     >
       <div>
-        &copy; All rights reserved.
+        <HeaderExternalLinks />
       </div>
       <div>
         {/* <Link
@@ -33,7 +34,7 @@ const Footer = () => {
         {` `}
         by
         {` `} */}
-        <Link aria-label="Link to the theme author's website" href="https://www.hexcodelabs.lk">
+        <Link aria-label="Link to the landing page" href="https://www.hexcodelabs.lk" sx={{fontFamily:"Playfair Display"}}>
           HEXCODELABS
         </Link>
       </div>

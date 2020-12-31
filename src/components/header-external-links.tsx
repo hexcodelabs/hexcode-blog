@@ -9,7 +9,7 @@ const HeaderExternalLinks = () => {
   return (
     <React.Fragment>
       {externalLinks && externalLinks.length > 0 && (
-        <div sx={{ "a:not(:first-of-type)": { ml: 3 }, fontSize: [1, `18px`] }}>
+        <div sx={{ "a:not(:first-of-type)": { ml: 3 }, fontSize: [1, `18px`] ,fontFamily:"Playfair Display"}}>
           {externalLinks.map((link) => (
             <TLink key={link.url} href={link.url}>
               {link.name}

@@ -20,7 +20,7 @@ const Navigation = ({ nav }: NavigationProps) => {
       {nav && nav.length > 0 && (
         <nav sx={{ "a:not(:last-of-type)": { mr: 3 }, fontSize: [1, `18px`],fontFamily:"Playfair Display", ".active": { color: `heading` } }}>
           {nav.map((item) => (
-            <TLink key={item.slug} as={Link} activeClassName="active" to={replaceSlashes(`/${basePath}/${item.slug}`)}>
+            <TLink key={item.slug} as={Link} activeClassName="active" to={item.slug}>
               {item.title}
             </TLink>
           ))}

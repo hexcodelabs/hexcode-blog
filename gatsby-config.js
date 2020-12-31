@@ -15,22 +15,42 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Home`,
+            slug: `https://hexcodelabs.lk/#home`,
+          },
+          {
+            title: `Services`,
+            slug: `https://hexcodelabs.lk/#services`,
+          },
+          // {
+          //   title: `Blog`,
+          //   slug: `https://blog.hexcodelabs.lk/blog`,
+          // },
+          {
+            title: `Our Team`,
+            slug: `https://hexcodelabs.lk/crew`,
+          },
+          {
+            title: `Contact Us`,
+            slug: `https://hexcodelabs.lk/#contact`,
           },
           {
             title: `About`,
-            slug: `/about`,
+            slug: `https://blog.hexcodelabs.lk/about`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Facebook`,
+            url: `https://www.facebook.com/hexodelabs`,
+          },
+          {
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/company/hexcode-labs/`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/hexcode.labs/`,
           },
         ],
         fonts:[

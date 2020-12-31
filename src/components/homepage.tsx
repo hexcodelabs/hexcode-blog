@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx ,Link as TLink } from "theme-ui"
 import { Link } from "gatsby"
 import Layout from "./layout"
 import Title from "./title"
@@ -43,9 +43,15 @@ const Homepage = ({ posts }: PostsProps) => {
           <h1 sx={visuallyHidden}>{siteTitle}</h1>
           <section sx={{ mb: [7], p: { fontSize: [1, 2, 3], mt: 2 }, variant: `section_hero` }}>
             <Hero />
+            <nav sx={{ "a:not(:last-of-type)": { mr: 3 },fontWeight:"bold" ,fontSize: [4],fontFamily:"Playfair Display"}}>
+                <TLink key="blog-button"as={Link} activeClassName="active" to={replaceSlashes(`/${basePath}/${blogPath}`)}>
+                  Click here to read
+                </TLink>
+            </nav>
           </section>
           <img src={BlogTop} id="bg" alt="" /> 
         </div>
+        {/* <Link to={"/"} sx={{fontFamily:"Playfair Display"}}}>Blogs</Link> */}
         
         <Title text="Latest Posts" >
           <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Read all posts</Link>
