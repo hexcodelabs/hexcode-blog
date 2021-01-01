@@ -1,19 +1,8 @@
-
-
-.home-inner__start {
-  height: 100%;
-  padding: 10px 0;
-  display: grid;
-
-  gap: 40px;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.home-inner__end {
-  height: 100%;
-  padding: 150px 0;
-  display: grid;
-  align-items: center;
-  gap: 40px;
-  grid-template-columns: repeat(2, 1fr);
+.container_top{
+  display: grid;  
+  grid-gap: 35px;  
+  width: 100% !important;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: repeat(1, 400px);
+  padding-bottom: 100px;
 }

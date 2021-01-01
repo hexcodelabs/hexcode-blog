@@ -45,7 +45,7 @@ module.exports = {
             url: `https://www.facebook.com/hexodelabs`,
           },
           {
-            name: `LinkedIn`,
+            name: `Linkedin`,
             url: `https://www.linkedin.com/company/hexcode-labs/`,
           },
           {

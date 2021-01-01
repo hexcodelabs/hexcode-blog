@@ -39,17 +39,21 @@ const Homepage = ({ posts }: PostsProps) => {
 
   return (
       <Layout>
-        <div className="home-inner__start">
-          <h1 sx={visuallyHidden}>{siteTitle}</h1>
-          <section sx={{ mb: [7], p: { fontSize: [2], mt: 2 }, variant: `section_hero` }}>
-            <Hero />
-            <nav sx={{ "a:not(:last-of-type)": { mr: 3 },fontWeight:"bold" ,fontSize: [3],fontFamily:"Playfair Display"}}>
-                <TLink key="blog-button"as={Link} activeClassName="active" to={replaceSlashes(`/${basePath}/${blogPath}`)}>
-                  Click here to start reading...
-                </TLink>
-            </nav>
-          </section>
-          <img src={BlogTop} id="bg" alt="" /> 
+        <div className="container_top">
+          <div>
+            <h1 sx={visuallyHidden}>{siteTitle}</h1>
+            <section sx={{ mb: [7], p: { fontSize: [2], mt: 2 }, variant: `section_hero` }}>
+              <Hero />
+              <nav sx={{ "a:not(:last-of-type)": { mr: 3 },fontWeight:"bold" ,fontSize: [3]}}>
+                  <TLink key="blog-button"as={Link} activeClassName="active" to={replaceSlashes(`/${basePath}/${blogPath}`)}>
+                    Click here to start reading...
+                  </TLink>
+              </nav>
+            </section>
+          </div>
+          <div>
+            <img src={BlogTop} id="bg" alt="" /> 
+          </div>
         </div>
         {/* <Link to={"/"} sx={{fontFamily:"Playfair Display"}}}>Blogs</Link> */}
         
