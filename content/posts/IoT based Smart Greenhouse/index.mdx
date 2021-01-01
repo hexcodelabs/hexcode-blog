@@ -9,15 +9,15 @@ tags:
 
 #### 1. Device to collect the sense the environment and maintain the actuators
 
--Node MCU
--Sensors — Temperature sensor, Moisture sensor, Humidity sensor, LDRs
--Actuators — Water motor, Heater, Fans, Lights
+- Node MCU
+- Sensors — Temperature sensor, Moisture sensor, Humidity sensor, LDRs
+- Actuators — Water motor, Heater, Fans, Lights
 
 #### 2. Device to indicate the information to the user and take the inputs from user
 
--LCD Display
--Alarm
--Node MCU
+- LCD Display
+- Alarm
+- Node MCU
 
 #### 3. Mobile app to get updated anytime
 
@@ -33,13 +33,13 @@ Then it compares the desired input values with the current values, in order to a
 
 In case of
 
--**Rise in temperature** — Device will increase the rate of turning on frequency of the fans while dropping the Heaters voltage
--**Drop in temperature** — Device will simply increase the Heaters voltage
--**Rise in moisture** — Device will turn off the water motor while increasing the Heaters voltage and the rate of turning on frequency of the fans.
--**Drop in moisture** — Device will simply turn on the water motor
--**Rise in humidity** — Device will decrease the rate of turning on frequency of the water motor while increasing the rate of turning on frequency of the fans.
--**Drop in humidity** — Device will increase the voltage of the heater and the rate of turning on frequency of the water motor while decreasing the rate of turning on frequency of the fans.
--**Lights** — lights will turn on at the night and will turn off automatically at the morning.
+- **Rise in temperature** — Device will increase the rate of turning on frequency of the fans while dropping the Heaters voltage
+- **Drop in temperature** — Device will simply increase the Heaters voltage
+- **Rise in moisture** — Device will turn off the water motor while increasing the Heaters voltage and the rate of turning on frequency of the fans.
+- **Drop in moisture** — Device will simply turn on the water motor
+- **Rise in humidity** — Device will decrease the rate of turning on frequency of the water motor while increasing the rate of turning on frequency of the fans.
+- **Drop in humidity** — Device will increase the voltage of the heater and the rate of turning on frequency of the water motor while decreasing the rate of turning on frequency of the fans.
+- **Lights** — lights will turn on at the night and will turn off automatically at the morning.
 
 #### 6. Informing the user
 
@@ -47,7 +47,7 @@ This is done by the device at the user and by the Mobile app we created.
 
 Depending on the situations user will be notified by the system by using two alarms.
 
--**Short alarm** — alarm will be turn on to indicate the user that the system is not achieving the desired input levels at this time instance
--**Long alarm** — this will indicate that the system has a failure or system cannot achieve the new desired input levels.
+- **Short alarm** — alarm will be turn on to indicate the user that the system is not achieving the desired input levels at this time instance
+- **Long alarm** — this will indicate that the system has a failure or system cannot achieve the new desired input levels.
 
 What alarm should be selected and at what time should the alarms should turn on will be selected by the [NODE RED](https://en.wikipedia.org/wiki/Node-RED) depending on our algorithm.
