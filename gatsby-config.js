@@ -70,7 +70,7 @@ module.exports = {
       options: {
         name: `hexcodeblogs`,
         short_name: `hexcodeblogs`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        description: `We are Hexcode and this is how we envision the future!!! Our blog, is your technical guide to the latest innovations and technologies used at Hexcodelabs ranging from customized websites to robotics development and IoT solutions. `,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
