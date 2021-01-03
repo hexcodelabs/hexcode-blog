@@ -44,7 +44,7 @@ const Tag = ({ posts, pageContext }: TagProps) => {
           sx={{ variant: `links.secondary`, marginY: 2 }}
           to={replaceSlashes(`/${basePath}/${tagsPath}`)}
         >
-          View all tags
+          View by people
         </TLink>
       </Flex>
       <Listing posts={posts} sx={{ mt: [4, 5] }} />
